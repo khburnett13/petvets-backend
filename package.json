@@ -1,0 +1,25 @@
+{
+  "name": "petvets-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node --experimental-json-modules mongoConnect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khburnett13/petvets-backend.git"
+  },
+  "author": "Kimberly Burnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khburnett13/petvets-backend/issues"
+  },
+  "homepage": "https://github.com/khburnett13/petvets-backend#readme",
+  "dependencies": {
+    "aws4": "^1.11.0",
+    "mongodb": "^4.0.0"
+  },
+  "type": "module"
+}

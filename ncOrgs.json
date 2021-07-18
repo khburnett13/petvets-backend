@@ -1,0 +1,158 @@
+[
+    {
+        "organization": "Animal Compassion Network",
+        "description": "Skyland",
+        "services": [
+            "pet food",
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "AnimalKind",
+        "description": "Raleigh",
+        "services": [
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Animal Protection Society of Durham",
+        "description": "Durham",
+        "services": [
+            "pet food assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Community Partnership for Pets",
+        "description": "Flat Rock",
+        "services": [
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Forsyth Humane Society",
+        "description": "Winston-Salem",
+        "services": [
+            "spay/neuter and vaccination assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Friends of Madison County Animals",
+        "services": [
+            "low-cost/no-cost services to Madison County residents: spay-neuter",
+            "pet food pantry",
+            "microchips",
+            "vaccinations"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Friends of Mebane's Animals",
+        "services": [
+            "pet food",
+            "spay/neuter subsidies",
+            "veterinary assistance",
+            "fences and shelter/housing for those in financial hardship or on public assistance in Alamance County and parts of surrounding counties"
+        ],
+        "contact": "919-883-2156",
+        "location": "NC"
+    },
+    {
+        "organization": "Harnett Animal Welfare Coalition (HAWC)",
+        "description": "Harnett County",
+        "services": [
+            "HAWC"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Haywood Animal Welfare Association",
+        "description": "Waynesville",
+        "services": [
+            "pet food",
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Humane Alliance",
+        "description": "Asheville",
+        "services": [
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "The Humane Society of the Piedmont",
+        "description": "Greensboro",
+        "services": [
+            "pet food & spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "SNAP-NC",
+        "description": "Statewide",
+        "services": [
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Stand for Animals.",
+        "description": "Charlotte",
+        "services": [
+            "low-cost spay/neuter",
+            "vaccines and pet-food pantry"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "SPCA of Wake County",
+        "description": "Raleigh",
+        "services": [
+            "pet food",
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Watauga Humane Society",
+        "description": "Boone",
+        "services": [
+            "spay/neuter and microchip assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Wayne County Humane Society",
+        "description": "Goldsboro",
+        "services": [
+            "spay/neuter assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "North Dakota",
+        "services": [],
+        "location": "NC"
+    },
+    {
+        "organization": "Circle of Friends Humane Society",
+        "description": "Grand Forks",
+        "services": [
+            "spay/neuter assistance",
+            "emergency medical assistance"
+        ],
+        "location": "NC"
+    },
+    {
+        "organization": "Spay Dakota",
+        "services": [],
+        "location": "NC"
+    }
+]
