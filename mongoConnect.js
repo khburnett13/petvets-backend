@@ -6,17 +6,44 @@ import * as json from './ncOrgs.json'
 const uri = 'mongodb+srv://AKIA4QFQJSN2JGX37IIN:5hLHj%2FZYc65zaHLDEitCBHpnG0Og8cRdMGJnpQo9@kimberly-burnett.ntm57.mongodb.net/pet_resources?authSource=%24external&authMechanism=MONGODB-AWS&retryWrites=true&w=majority'
 const clientPromise = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
+let cachedDb = null
 
-clientPromise.connect(async err => {
-   // const collection = clientPromise.db('pet_resources').collection('organizations')
-   // perform actions on the collection object
-   const db = clientPromise.db('pet_resources')
+async function init() {
+   const db = await connectToDatabase()
    console.log('coco', db.databaseName)
-   // await updateValidation(clientPromise.db())
-   // await insertNCData(db)
-   // await create(db)
+
+      // await updateValidation(clientPromise.db())
+      // await insertNCData(db)
+      // await create(db)
+   
+   const response = await getData(db)
+   console.log('response', response)
    await clientPromise.close();
-});
+}
+
+async function getData(db) {
+   const data = await db.collection('organizations').find({}).toArray()
+
+   const response = {
+      statusCode: 200,
+      body: data
+   }
+
+   return response
+}
+
+async function connectToDatabase() {
+   if (cachedDb) { return cachedDb; }
+
+   // connect to mongo
+   const client = await MongoClient.connect(uri)
+
+   // specify db
+   const db = await client.db('pet_resources')
+
+   cachedDb = db
+   return db
+}
 
 async function insertNCData(db) {
    const j = json.default
@@ -59,3 +86,4 @@ async function updateValidation(db) {
    console.log('after')
 }
 
+init()
